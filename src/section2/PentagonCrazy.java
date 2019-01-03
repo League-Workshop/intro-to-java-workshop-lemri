@@ -10,9 +10,10 @@ public class PentagonCrazy {
 
 	private void makePrettyThings() {
 		// 1. Create a new Robot
-
+		Robot terminator=new Robot("batman");
+		terminator.penDown();
 		// 3. Put the robot's pen down
-
+		terminator.setSpeed((int)100);
 		// 8. Make the robot go at maximum speed (100)
 
 		// 9. Set the pen to a color that you like for the shape

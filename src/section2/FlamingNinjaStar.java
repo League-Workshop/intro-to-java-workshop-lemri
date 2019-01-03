@@ -4,12 +4,50 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class FlamingNinjaStar {
 	
-	public static void main(String[] args) {
+	public static <f4f442> void main(String[] args) {
 
 		int baseSize = 300;		//the size of the black part of the star
 		int flameSize = 200;		//the length of the flaming arms
-		
-		// 1. Make a new robot, and set it's pen down.
+		Robot terminator=new Robot("batman");
+				terminator.setSpeed((int)100);
+	terminator.turn(45);
+terminator.move(64);
+terminator.penDown();
+
+terminator.turn(-30);
+terminator.move(64);
+terminator.setPenColor(249, 14, 14);
+
+terminator.turn(-30);
+terminator.move(flameSize);
+
+terminator.turn(160);
+terminator.move(flameSize);
+terminator.setPenColor(0,0,0);
+terminator.turn(64);
+terminator.move(baseSize);
+terminator.move(flameSize);
+for(int i=0;i<000;i++){
+	terminator.turn(45);
+terminator.move(64);
+terminator.penDown();
+
+terminator.turn(-30);
+terminator.move(64);
+terminator.setPenColor(249, 14, 14);
+
+terminator.turn(-30);
+terminator.move(flameSize);
+
+terminator.turn(160);
+terminator.move(flameSize);
+terminator.setPenColor(0,0,0);
+terminator.turn(64);
+terminator.move(baseSize);
+terminator.move(flameSize);
+}
+
+
 
 		// *14. Use the methods setX and setY to move the ninja star into the center of the screen
 		
@@ -38,6 +76,11 @@ public class FlamingNinjaStar {
 			// 10. Check that your shape is the same as Figure 1. This is one arm of the ninja star.
 			
 			// 11. Color your ninja star like Figure 2.
+		
+	}
+
+	private static void fill() {
+		// TODO Auto-generated method stub
 		
 	}
 
