@@ -9,7 +9,7 @@ public class FlamingNinjaStar {
 		int baseSize = 300;		//the size of the black part of the star
 		int flameSize = 200;		//the length of the flaming arms
 		Robot terminator=new Robot("batman");
-				terminator.setSpeed((int)100);
+				terminator.setSpeed((int)1000);
 	terminator.turn(45);
 terminator.move(64);
 terminator.penDown();
@@ -27,7 +27,7 @@ terminator.setPenColor(0,0,0);
 terminator.turn(64);
 terminator.move(baseSize);
 terminator.move(flameSize);
-for(int i=0;i<000;i++){
+for(int i=0;i<1000;i++){
 	terminator.turn(45);
 terminator.move(64);
 terminator.penDown();
